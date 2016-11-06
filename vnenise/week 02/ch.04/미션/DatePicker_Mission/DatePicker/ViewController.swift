@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
         let currentTime = dateFormatter.string(from: currentDate)
         currentLabel.text = "현재날짜: "+currentTime
+        
+        if(currentTime == alarmTime){
+            self.view.backgroundColor = UIColor.red
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -39,6 +43,7 @@ class ViewController: UIViewController {
         datePicker = sender
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
+        //alarmDate = datePicker.date
         alarmTime = dateFormatter.string(from: datePicker.date)
         selectLabel.text = "선택시간 :"+alarmTime!
     }
