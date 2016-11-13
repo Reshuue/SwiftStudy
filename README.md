@@ -18,15 +18,25 @@
  * swift 배경 및 xcode툴 소개
  * xcode ios앱 개발 소개
  * swift 기본자료형, 변수선언방식, 옵셔널(optional), 조건문
- * 교재 1~3장 예제 및 미션과제 실습
+ * 교재 1~3장 예제 및 미션과제 실습 
+
+
 * 2주차 (2016-11-05)
  * swift 연산자, 조건문(switch-case, guard), 반복문(for문,while, repeat-while), 함수, 클래스, 배열(Array)
  * Date, DateFormatter, Timer, selector 사용법
  * 교재 4장 예제 및 미션과제 실습
- * git / sourceTree 사용법 (향후 전체적인 정리내용 필요)
+ * git / sourceTree 사용법 (향후 전체적인 정리내용 필요) 
+
+
 * 3주차 (2016-11-12)
- * 5~6장 예제 및 미션과제 실습 예정
- 
+
+ * swift문법 - protocol, 클로저(익명함수), 델리게이트 패턴
+ * 5~6장 예제 및 미션과제 실습 (pickerView / alert창)
+
+* 5주차 (2016-11-19)
+ * 7~8장 예제 실습 예정 (웹뷰 / 맵뷰)
+
+
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * github 소스 관리방식 - 추후 공지
