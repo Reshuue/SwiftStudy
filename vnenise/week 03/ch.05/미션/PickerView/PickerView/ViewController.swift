@@ -16,7 +16,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     let imageName = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg"]
     var images = [UIImage]()
-    let COLUMN_COUNT = 1
+    let COLUMN_COUNT = 2
     let ROW_HEIGHT:CGFloat = 50
     
     override func viewDidLoad() {
@@ -55,8 +55,17 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        label.text = "select item: "+imageName[row]
-        imageView.image = images[row]
+        
+        /*switch component{
+            case 0 : label.text = "select item: "+imageName[row]
+            default: imageView.image = images[row]
+        }*/
+        
+        if component == 0 {
+            label.text = "select item: "+imageName[row]
+        }else{
+            imageView.image = images[row]
+        }
     }
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
