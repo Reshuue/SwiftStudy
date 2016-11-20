@@ -34,8 +34,11 @@
  * 5~6장 예제 및 미션과제 실습 (pickerView / alert창)
 
 * 4주차 (2016-11-19)
- * 7~8장 예제 실습 예정 (웹뷰 / 맵뷰)
+ * UIWebView / Bundle 객체 / MapKit / CoreLocation
+ * 7장 웹뷰 예제 실습
 
+* 5주차 (2016-11-26)
+ * 8~9장 예제 실습 예정 (MapView / PageControl)
 
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
