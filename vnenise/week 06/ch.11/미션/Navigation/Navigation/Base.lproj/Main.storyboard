@@ -115,6 +115,17 @@
                                     <action selector="switchOnOff:" destination="Rpo-GA-bNO" eventType="valueChanged" id="qyn-4t-HJr"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9L-bb-lrA">
+                                <rect key="frame" x="201" y="132" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="E0q-iN-YhV"/>
+                                    <constraint firstAttribute="width" constant="30" id="iSF-rE-SKI"/>
+                                </constraints>
+                                <state key="normal" title="확대"/>
+                                <connections>
+                                    <action selector="zoomChange:" destination="Rpo-GA-bNO" eventType="touchUpInside" id="dkh-E1-i6E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -129,6 +140,8 @@
                             <constraint firstItem="Pbi-5B-AKR" firstAttribute="leading" secondItem="0li-ZE-xOR" secondAttribute="trailing" constant="18" id="izM-ar-ltS"/>
                             <constraint firstItem="0li-ZE-xOR" firstAttribute="centerY" secondItem="Pbi-5B-AKR" secondAttribute="centerY" id="j9G-lO-IjL"/>
                             <constraint firstItem="0li-ZE-xOR" firstAttribute="leading" secondItem="ASa-Cg-nmc" secondAttribute="leadingMargin" id="nMI-mJ-Cnq"/>
+                            <constraint firstItem="p6S-8Q-awc" firstAttribute="leading" secondItem="S9L-bb-lrA" secondAttribute="trailing" constant="16" id="qIz-SY-6eL"/>
+                            <constraint firstItem="S9L-bb-lrA" firstAttribute="top" secondItem="0li-ZE-xOR" secondAttribute="bottom" constant="24" id="ubh-Ky-JEG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="수정화면" id="k9S-wU-mOB">
@@ -142,6 +155,7 @@
                         <outlet property="lblWay" destination="0li-ZE-xOR" id="98y-TD-HSm"/>
                         <outlet property="onoffSwitch" destination="p6S-8Q-awc" id="496-HC-ZeZ"/>
                         <outlet property="textField" destination="eUl-Lg-6PH" id="nIm-RP-aGN"/>
+                        <outlet property="zoomBtn" destination="S9L-bb-lrA" id="USC-bj-jx7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RaL-jT-aRV" userLabel="First Responder" sceneMemberID="firstResponder"/>

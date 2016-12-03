@@ -11,6 +11,7 @@ import UIKit
 protocol EditDelegate{
     func didMessageEditDone(controller: UIViewController, message: String)
     func didImageOnOffDone(controller:UIViewController, isOn:Bool)
+    func didImageZoomDone(controller: UIViewController, isZoom: Bool, viewSize:CGSize)
 }
 
 class EditViewController: UIViewController {
@@ -18,6 +19,7 @@ class EditViewController: UIViewController {
     @IBOutlet weak var lblWay: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var onoffSwitch: UISwitch!
+    @IBOutlet weak var zoomBtn: UIButton!
     
     var textValue = ""
     var textMessage = ""
@@ -30,6 +32,11 @@ class EditViewController: UIViewController {
         lblWay.text = textValue
         textField.text = textMessage
         onoffSwitch.isOn = isOn
+        if isZoom {
+            zoomBtn.setTitle("확대", for: .normal)
+        } else {
+            zoomBtn.setTitle("축소", for: .normal)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,6 +48,7 @@ class EditViewController: UIViewController {
         if let controller = delegate {
             controller.didMessageEditDone(controller: self, message: textField.text!)
             controller.didImageOnOffDone(controller: self, isOn: isOn)
+            controller.didImageZoomDone(controller: self, isZoom: isZoom, viewSize: viewSize)
         }
         _ = self.navigationController?.popViewController(animated: true)
     }
@@ -49,6 +57,7 @@ class EditViewController: UIViewController {
         if let controller = delegate {
             controller.didMessageEditDone(controller: self, message: textField.text!)
             controller.didImageOnOffDone(controller: self, isOn: isOn)
+            controller.didImageZoomDone(controller: self, isZoom: isZoom, viewSize: viewSize)
         }
        _ = self.navigationController?.popViewController(animated: true)
     }
@@ -60,4 +69,14 @@ class EditViewController: UIViewController {
             isOn = false
         }
     }
+    
+    @IBAction func zoomChange(_ sender: UIButton) {
+        if isZoom {
+            zoomBtn.setTitle("축소", for: .normal)
+        }else{
+            zoomBtn.setTitle("확대", for: .normal)
+        }
+        isZoom = !isZoom
+    }
+    
 }

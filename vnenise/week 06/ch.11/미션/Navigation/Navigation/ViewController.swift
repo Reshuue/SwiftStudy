@@ -15,7 +15,8 @@ class ViewController: UIViewController, EditDelegate {
     @IBOutlet weak var imageView: UIImageView!
     let imgOn = UIImage(named: "lamp-on.png")
     let imgOff = UIImage(named: "lamp-off.png")
-    var isOn = true
+    var isOn = true, isZoom = false
+    var imageViewSize:CGSize!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,12 @@ class ViewController: UIViewController, EditDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidLayoutSubviews() {
+        if imageViewSize != nil{
+            imageView.frame.size = imageViewSize
+        }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -37,6 +44,13 @@ class ViewController: UIViewController, EditDelegate {
         }
         editViewController.textMessage = txtMessage.text!
         editViewController.isOn = isOn
+        editViewController.isZoom = isZoom
+        
+        if imageViewSize == nil{
+            editViewController.viewSize = imageView.frame.size
+        }else{
+            editViewController.viewSize = imageViewSize
+        }
         editViewController.delegate = self
     }
     
@@ -51,6 +65,23 @@ class ViewController: UIViewController, EditDelegate {
         }else{
             imageView.image = imgOff
             self.isOn = isOn
+        }
+    }
+    
+    func didImageZoomDone(controller: UIViewController, isZoom: Bool, viewSize: CGSize) {
+        let scale:CGFloat = 2.0
+        var newWidth:CGFloat, newHeight:CGFloat
+        if self.isZoom != isZoom {
+            if isZoom {
+                newWidth = viewSize.width*scale
+                newHeight = viewSize.height*scale
+            }else{
+                newWidth = viewSize.width/scale
+                newHeight = viewSize.height/scale
+            }
+            imageViewSize = CGSize(width:newWidth, height:newHeight)
+            //imageView.frame.size = imageViewSize
+            self.isZoom = !self.isZoom
         }
     }
 }
