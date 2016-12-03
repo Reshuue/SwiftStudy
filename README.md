@@ -47,6 +47,7 @@
 
 * 7주차 (2016-12-10)
  * TableView를 이용한 Todo 리스트 실습 예정
+ 
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * github 소스 관리방식 - 추후 공지
