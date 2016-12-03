@@ -38,8 +38,15 @@
  * 7장 웹뷰 예제 실습
 
 * 5주차 (2016-11-26)
- * 8~9장 예제 실습 예정 (MapView / PageControl)
+ * Bundle객체, Mapkit, CoreLocation, UIPageControl
+ * 8~9장 예제 및 미션과제 실습 (MapView / PageControl)
+ 
+* 6주차 (2016-12-03)
+ * type casting (형변환), double question(??), 화면전환 / Segue(세그)
+ * 10~11장 예제 및 미션과제 실습 (TabBarController / NavigationControl)
 
+* 7주차 (2016-12-10)
+ * TableView를 이용한 Todo 리스트 실습 예정
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * github 소스 관리방식 - 추후 공지
