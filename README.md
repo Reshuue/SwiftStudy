@@ -46,7 +46,11 @@
  * 10~11장 예제 및 미션과제 실습 (TabBarController / NavigationControl)
 
 * 7주차 (2016-12-10)
- * TableView를 이용한 Todo 리스트 실습 예정
+ * type casting (형변환), double question(??), Segue(세그) 복습, UItableView
+ * 12장 TableView를 이용한 Todo 리스트 실습
+ 
+* 8주차 (2016-12-17)
+ * 13/14/15장 예제 및 실습 (음성파일 재생, 동영상 재생, 카메라)
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
