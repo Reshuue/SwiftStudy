@@ -24,15 +24,6 @@ class ViewController: UIViewController {
         pageControl.pageIndicatorTintColor = UIColor.white
         pageControl.currentPageIndicatorTintColor = UIColor.gray
         imgView.image = UIImage(named: images[0])
-        
-        imgView.isUserInteractionEnabled = true
-        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(gesture:)))
-        swipeLeft.direction = UISwipeGestureRecognizerDirection.left
-        self.imgView.addGestureRecognizer(swipeLeft)
-        
-        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(gesture:)))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
-        self.imgView.addGestureRecognizer(swipeRight)
     }
     
     override func didReceiveMemoryWarning() {
@@ -42,28 +33,6 @@ class ViewController: UIViewController {
 
     @IBAction func pageChanged(_ sender: UIPageControl) {
         imgView.image = UIImage(named: images[pageControl.currentPage])
-    }
-    
-    func respondToSwipeGesture(gesture: UISwipeGestureRecognizer){
-        switch gesture.direction {
-        case UISwipeGestureRecognizerDirection.left:
-            if pageControl.currentPage > 0 {
-                pageControl.currentPage -= 1
-            }else{
-                pageControl.currentPage = images.count-1
-            }
-            imgView.image = UIImage(named: images[pageControl.currentPage])
-        case UISwipeGestureRecognizerDirection.right:
-            if pageControl.currentPage < images.count-1 {
-                pageControl.currentPage += 1
-            }else{
-                pageControl.currentPage = 0
-            }
-            imgView.image = UIImage(named: images[pageControl.currentPage])
-        default :
-            break
-        }
-        
     }
 }
 
