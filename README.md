@@ -49,9 +49,13 @@
  * type casting (형변환), double question(??), Segue(세그) 복습, UItableView
  * 12장 TableView를 이용한 Todo 리스트 실습
  
-* 8주차 (2016-01-07)
- * 연말행사 및 새해 이후 다시 재개 예정
- * gesture/swipe/pinch 실습 예정
+* 8주차 (2017-01-07)
+ * Selector, UIGestureRecognizer 
+ * 18~19장 - swipeGesture / pinchGesture 예제 및 미션과제 실습
+
+* 9주차 (2017-01-21)
+ * 팀원들 일정관계로 1월 21일 스터디 진행
+ * 16~17장 코어그래픽 및 tab/touch 예제 및 실습
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
