@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DrawGraphics" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVG-S3-PDX">
+                                <rect key="frame" x="16" y="20" width="30" height="30"/>
+                                <state key="normal" title="선"/>
+                                <connections>
+                                    <action selector="btnDrawLine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fzf-po-rrb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbz-sP-S8L">
+                                <rect key="frame" x="53" y="20" width="84" height="30"/>
+                                <state key="normal" title="사각형"/>
+                                <connections>
+                                    <action selector="btnDrawRectangle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qp-mg-7U7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="257" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C1-KS-QBp">
+                                <rect key="frame" x="145" y="20" width="30" height="30"/>
+                                <state key="normal" title="원"/>
+                                <connections>
+                                    <action selector="btnDrawCircle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ayq-So-Nqe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="258" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dX-W9-seK">
+                                <rect key="frame" x="265" y="20" width="39" height="30"/>
+                                <state key="normal" title="채우기"/>
+                                <connections>
+                                    <action selector="btnDrawFill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4u-RI-vxt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HRK-rN-vJp">
+                                <rect key="frame" x="16" y="54" width="288" height="406"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw5-dF-uTF">
+                                <rect key="frame" x="205" y="20" width="54" height="30"/>
+                                <state key="normal" title="호"/>
+                                <connections>
+                                    <action selector="btnDrawArc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb3-wJ-uDj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="top" secondItem="xbz-sP-S8L" secondAttribute="bottom" constant="4" id="4qO-CG-W4f"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5tn-uE-NKc"/>
+                            <constraint firstItem="5dX-W9-seK" firstAttribute="leading" secondItem="dw5-dF-uTF" secondAttribute="trailing" constant="6" id="8cm-6v-loC"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="top" secondItem="5dX-W9-seK" secondAttribute="bottom" constant="4" id="A40-D6-b12"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HRK-rN-vJp" secondAttribute="bottom" constant="20" id="C7V-Yq-t89"/>
+                            <constraint firstItem="NVG-S3-PDX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="C9U-NM-24k"/>
+                            <constraint firstItem="5C1-KS-QBp" firstAttribute="leading" secondItem="xbz-sP-S8L" secondAttribute="trailing" constant="8" id="DEJ-7f-gQI"/>
+                            <constraint firstItem="dw5-dF-uTF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HV5-pa-0tJ"/>
+                            <constraint firstItem="5dX-W9-seK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HyM-tW-uzz"/>
+                            <constraint firstItem="5dX-W9-seK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NvF-rl-25a"/>
+                            <constraint firstItem="xbz-sP-S8L" firstAttribute="leading" secondItem="NVG-S3-PDX" secondAttribute="trailing" constant="7" id="TnC-Qv-9Lq"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="W9D-pJ-DWY"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="top" secondItem="NVG-S3-PDX" secondAttribute="bottom" constant="4" id="WwT-ra-HAj"/>
+                            <constraint firstItem="5C1-KS-QBp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eQH-h5-3jW"/>
+                            <constraint firstItem="dw5-dF-uTF" firstAttribute="leading" secondItem="5C1-KS-QBp" secondAttribute="trailing" constant="30" id="is9-W4-DOk"/>
+                            <constraint firstItem="xbz-sP-S8L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jUx-jC-voA"/>
+                            <constraint firstItem="5dX-W9-seK" firstAttribute="leading" secondItem="dw5-dF-uTF" secondAttribute="trailing" constant="6" id="jat-JL-M5l"/>
+                            <constraint firstItem="xbz-sP-S8L" firstAttribute="leading" secondItem="NVG-S3-PDX" secondAttribute="trailing" constant="7" id="nkN-U5-DgK"/>
+                            <constraint firstItem="5C1-KS-QBp" firstAttribute="baseline" secondItem="dw5-dF-uTF" secondAttribute="baseline" id="qMt-qM-a6J"/>
+                            <constraint firstItem="NVG-S3-PDX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rR1-gH-tag"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="top" secondItem="dw5-dF-uTF" secondAttribute="bottom" constant="4" id="ske-zh-yqW"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tue-7d-aXk"/>
+                            <constraint firstItem="HRK-rN-vJp" firstAttribute="top" secondItem="dw5-dF-uTF" secondAttribute="bottom" constant="4" id="xLE-7N-vug"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="HRK-rN-vJp" id="e3K-r5-OZw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-43.125" y="122.5"/>
+        </scene>
+    </scenes>
+</document>
