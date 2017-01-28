@@ -54,8 +54,12 @@
  * 18~19장 - swipeGesture / pinchGesture 예제 및 미션과제 실습
 
 * 9주차 (2017-01-21)
- * 팀원들 일정관계로 1월 21일 스터디 진행
- * 16~17장 코어그래픽 및 tab/touch 예제 및 실습
+ * Tap(UIResponder), Core Graphics
+ * 14,16~17장 비디오 영상 재생 / 코어그래픽 및 tab/touch 예제 및 미션과제
+ * cococa pods 사용 및 youtube-ios-player-helper 예제실습
+
+* 10주차 (2017-02-04)
+ * 13, 15장 음성파일 재생 및 사진라이브러리 예제 및 실습예정
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
