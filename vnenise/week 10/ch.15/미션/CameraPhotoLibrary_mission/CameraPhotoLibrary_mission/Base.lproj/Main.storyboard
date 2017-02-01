@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraPhotoLibrary_mission" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0rb-gp-mNM">
+                                <rect key="frame" x="0.0" y="20" width="320" height="240"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="akR-4V-7pa" userLabel="Image View2">
+                                <rect key="frame" x="0.0" y="260" width="160" height="190"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="43i-c6-LbM" userLabel="Image View3">
+                                <rect key="frame" x="160" y="260" width="160" height="190"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="259" horizontalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wae-Fd-bRj">
+                                <rect key="frame" x="119" y="450" width="82" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GYn-PT-cYB"/>
+                                </constraints>
+                                <state key="normal" title="사진 불러오기"/>
+                                <connections>
+                                    <action selector="btnLoadFromAlbumLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmo-44-1ht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="254" horizontalCompressionResistancePriority="754" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6H-ha-TYu">
+                                <rect key="frame" x="265" y="450" width="39" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mve-io-IP9"/>
+                                </constraints>
+                                <state key="normal" title="초기화"/>
+                                <connections>
+                                    <action selector="btnImageViewClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSX-Ik-XmR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRv-bh-ghh">
+                                <rect key="frame" x="16" y="450" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ubf-YO-1Po"/>
+                                </constraints>
+                                <state key="normal" title="사진 촬영"/>
+                                <connections>
+                                    <action selector="btnCapture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAW-sm-LOh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wae-Fd-bRj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3sC-yk-1ZL"/>
+                            <constraint firstAttribute="bottom" secondItem="mRv-bh-ghh" secondAttribute="bottom" id="6LL-Nn-BWk"/>
+                            <constraint firstAttribute="trailing" secondItem="c6H-ha-TYu" secondAttribute="trailing" constant="16" id="B6C-h6-1ou"/>
+                            <constraint firstItem="0rb-gp-mNM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DOn-tk-U8m"/>
+                            <constraint firstAttribute="bottom" secondItem="Wae-Fd-bRj" secondAttribute="bottom" id="EEm-Ic-TbD"/>
+                            <constraint firstItem="akR-4V-7pa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EgR-hy-iMF"/>
+                            <constraint firstItem="c6H-ha-TYu" firstAttribute="leading" secondItem="Wae-Fd-bRj" secondAttribute="trailing" constant="64" id="IBS-cK-TuS"/>
+                            <constraint firstItem="akR-4V-7pa" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="NtH-BM-K9V"/>
+                            <constraint firstItem="akR-4V-7pa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tlu-oA-wdd"/>
+                            <constraint firstItem="mRv-bh-ghh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="WVO-EO-TNw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="43i-c6-LbM" secondAttribute="bottom" constant="30" id="XDB-xc-DtQ"/>
+                            <constraint firstItem="mRv-bh-ghh" firstAttribute="top" secondItem="akR-4V-7pa" secondAttribute="bottom" id="bYw-XB-5gp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="akR-4V-7pa" secondAttribute="bottom" constant="30" id="dwc-l5-8Tc"/>
+                            <constraint firstItem="Wae-Fd-bRj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" constant="-14" id="eC8-BX-H6k"/>
+                            <constraint firstItem="akR-4V-7pa" firstAttribute="top" secondItem="0rb-gp-mNM" secondAttribute="bottom" id="fad-wg-cA3"/>
+                            <constraint firstItem="43i-c6-LbM" firstAttribute="leading" secondItem="akR-4V-7pa" secondAttribute="trailing" id="hQd-1n-UH9"/>
+                            <constraint firstItem="0rb-gp-mNM" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="lGa-wQ-ydb"/>
+                            <constraint firstItem="43i-c6-LbM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="mnw-hF-67g"/>
+                            <constraint firstItem="Wae-Fd-bRj" firstAttribute="leading" secondItem="mRv-bh-ghh" secondAttribute="trailing" constant="47" id="o9O-hn-QEu"/>
+                            <constraint firstAttribute="trailing" secondItem="0rb-gp-mNM" secondAttribute="trailing" id="pQv-3N-w62"/>
+                            <constraint firstItem="43i-c6-LbM" firstAttribute="top" secondItem="0rb-gp-mNM" secondAttribute="bottom" id="stv-gD-QJX"/>
+                            <constraint firstAttribute="bottom" secondItem="c6H-ha-TYu" secondAttribute="bottom" id="uhD-W7-Yz6"/>
+                            <constraint firstItem="0rb-gp-mNM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="vZW-qi-mkK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="0rb-gp-mNM" id="gXO-1L-hWI"/>
+                        <outlet property="imageView2" destination="akR-4V-7pa" id="cEb-Zh-AYg"/>
+                        <outlet property="imageView3" destination="43i-c6-LbM" id="6U1-6w-S6R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-45" y="120"/>
+        </scene>
+    </scenes>
+</document>
