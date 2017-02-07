@@ -59,7 +59,13 @@
  * cococa pods 사용 및 youtube-ios-player-helper 예제실습
 
 * 10주차 (2017-02-04)
- * 13, 15장 음성파일 재생 및 사진라이브러리 예제 및 실습예정
+ * dictionary / enum
+ * error handle (Error, try/catch, throws)
+ * 13장 음성파일 재생 예제 실습
+ 
+* 11주차 (2017-02-11)
+ * 15장 사진라이브러리 예제 및 실습예정
+ * 차후 스터디방향 논의
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
