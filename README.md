@@ -1,4 +1,4 @@
-# 토요일 오전 신촌 swift/ios 스터디모임
+# 토요일 오전 신촌/이대 swift/ios 스터디모임
 
 ## 소개
 * 이 모임은 swift3.0을 기준으로 ios개발에 대한 스터디 입문자 모임입니다.
@@ -6,12 +6,14 @@
 * 팀원들과의 소스코드 공유목적으로 만든 git저장소입니다.
  
 ## 스터디모임 정보
+1) do it 스위프트로 아이폰앱 만들기 기준의 입문자 swift/ios스터디
 * slack team명: swift-ios-study.slack.com
 * slack web url: https://swift-ios-study.slack.com/
-* 교재: [doit 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497)
-* 시간/장소: 토요일 오전(9:00 ~ 12:00) 신촌 인근 스터디룸
+* 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497)
+* 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸
 * 진행방식:매주 교재 2챕터씩 예제 및 미션과제 실습
 * 환경: swift 3.0 / xcode 8.0
+* 기간: 2016-10-29 ~ 2017-02-11 (11주) 
 
 ## 진행사항
 * 1주차 (2016-10-29)
@@ -20,16 +22,13 @@
  * swift 기본자료형, 변수선언방식, 옵셔널(optional), 조건문
  * 교재 1~3장 예제 및 미션과제 실습 
 
-
 * 2주차 (2016-11-05)
  * swift 연산자, 조건문(switch-case, guard), 반복문(for문,while, repeat-while), 함수, 클래스, 배열(Array)
  * Date, DateFormatter, Timer, selector 사용법
  * 교재 4장 예제 및 미션과제 실습
  * git / sourceTree 사용법 (향후 전체적인 정리내용 필요) 
 
-
 * 3주차 (2016-11-12)
-
  * swift문법 - protocol, 클로저(익명함수), 델리게이트 패턴
  * 5~6장 예제 및 미션과제 실습 (pickerView / alert창)
 
@@ -64,11 +63,14 @@
  * 13장 음성파일 재생 예제 실습
  
 * 11주차 (2017-02-11)
- * 15장 사진라이브러리 예제 및 실습예정
- * 차후 스터디방향 논의
+ * 15장 사진라이브러리 예제 및 실습
+ * 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497) 마무리
+ 
+* 12주차 (2017-02-18)
+ * 새로 스터디 진행방식 논의 및 오리엔테이션
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
-* github 소스 관리방식 - 추후 공지
 * swift 문법 내용정리 문서화
 * ios에 대한 전반적인 프레임워크 내용정리 문서화
+* 세미프로젝트 기획 및 문서관리 방식
