@@ -13,7 +13,17 @@
 * 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸
 * 진행방식:매주 교재 2챕터씩 예제 및 미션과제 실습
 * 환경: swift 3.0 / xcode 8.0
-* 기간: 2016-10-29 ~ 2017-02-11 (11주) 
+* 기간: 2016-10-29 ~ 2017-02-11 (11주)
+
+2) swift문법/ios, 세미프로젝트 스터디
+* 참고교재
+  * [애플 swift문서](
+https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/)
+  * [꼼꼼한 재은 씨의 Swift3](http://book.naver.com/bookdb/book_detail.nhn?bid=11282203)
+* 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸 (시간변경 될 수 있음)
+* 진행방식: 매주 선정주제 발표 및 스터디(1시간) / 세미프로젝트(2시간)
+* 환경: swift 3.0 / xcode 8.0
+* 기간: 2017-02-18 ~
 
 ## 진행사항
 * 1주차 (2016-10-29)
