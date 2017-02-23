@@ -67,7 +67,11 @@
  * 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497) 마무리
  
 * 12주차 (2017-02-18)
- * 새로 스터디 진행방식 논의 및 오리엔테이션
+ * swift/xcode툴
+ * swift문법 - 기본 자료형 (데이터 타입), 연산자, 변수 및 선언방식, 문자열 포맷, 조건문, 반복문
+ 
+* 13주차 (2017-02-25)
+ * 옵셔널(optional), collection type, 함수, 앱/뷰 생명주기, autoLayout 예정
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
