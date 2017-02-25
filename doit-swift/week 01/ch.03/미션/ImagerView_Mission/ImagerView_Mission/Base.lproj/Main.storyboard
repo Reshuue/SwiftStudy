@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xVa-aV-xl7">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ki8-rk-0zS">
+            <objects>
+                <viewController id="xVa-aV-xl7" customClass="ViewController" customModule="ImagerView_Mission" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x6Z-3K-WDY"/>
+                        <viewControllerLayoutGuide type="bottom" id="q5S-wE-1ki"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pEp-H9-OeE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01.png" translatesAutoresizingMaskIntoConstraints="NO" id="hLT-a7-gV8">
+                                <rect key="frame" x="0.0" y="20" width="320" height="502"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hp2-oY-yO8">
+                                <rect key="frame" x="160" y="530" width="160" height="30"/>
+                                <state key="normal" title="다음"/>
+                                <connections>
+                                    <action selector="nextImage:" destination="xVa-aV-xl7" eventType="touchUpInside" id="DUD-a2-SGg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPO-iW-XDI">
+                                <rect key="frame" x="0.0" y="530" width="160" height="30"/>
+                                <state key="normal" title="이전"/>
+                                <connections>
+                                    <action selector="prevImage:" destination="xVa-aV-xl7" eventType="touchUpInside" id="bE7-g7-JbM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hLT-a7-gV8" firstAttribute="top" secondItem="x6Z-3K-WDY" secondAttribute="bottom" id="Dlx-Ft-haa"/>
+                            <constraint firstItem="q5S-wE-1ki" firstAttribute="top" secondItem="hLT-a7-gV8" secondAttribute="bottom" constant="46" id="Irl-Hm-cPb"/>
+                            <constraint firstItem="hp2-oY-yO8" firstAttribute="baseline" secondItem="GPO-iW-XDI" secondAttribute="baseline" id="OGV-Xc-WcN"/>
+                            <constraint firstAttribute="trailing" secondItem="hLT-a7-gV8" secondAttribute="trailing" id="RrP-5Z-bSZ"/>
+                            <constraint firstItem="GPO-iW-XDI" firstAttribute="leading" secondItem="pEp-H9-OeE" secondAttribute="leading" id="fRZ-dS-aGK"/>
+                            <constraint firstItem="hp2-oY-yO8" firstAttribute="width" secondItem="pEp-H9-OeE" secondAttribute="width" multiplier="0.5" id="fRl-Fy-gEd"/>
+                            <constraint firstItem="GPO-iW-XDI" firstAttribute="width" secondItem="pEp-H9-OeE" secondAttribute="width" multiplier="0.5" id="mUO-MD-MRa"/>
+                            <constraint firstItem="hp2-oY-yO8" firstAttribute="trailing" secondItem="hLT-a7-gV8" secondAttribute="trailing" id="pUq-ra-S34"/>
+                            <constraint firstItem="GPO-iW-XDI" firstAttribute="leading" secondItem="hLT-a7-gV8" secondAttribute="leading" id="qiC-Un-BYV"/>
+                            <constraint firstItem="GPO-iW-XDI" firstAttribute="top" secondItem="hLT-a7-gV8" secondAttribute="bottom" constant="8" symbolic="YES" id="tAf-cm-QyQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView2" destination="hLT-a7-gV8" id="g33-fg-89m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Usm-LY-qOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="481.875" y="115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01.png" width="1686" height="2448"/>
+    </resources>
+</document>
