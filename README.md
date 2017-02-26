@@ -81,7 +81,15 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
  * swift문법 - 기본 자료형 (데이터 타입), 연산자, 변수 및 선언방식, 문자열 포맷, 조건문, 반복문
  
 * 13주차 (2017-02-25)
- * 옵셔널(optional), collection type, 함수, 앱/뷰 생명주기, autoLayout 예정
+ * 지난주제 복습
+ * 튜플, Any/AnyObject, 옵셔널(optional), Double question(??)
+ * 함수(function), 콜렉션 타입 - Array, Dictionary
+ * 앱 생명주기, 뷰 생명주기
+
+* 14주차 (2017-02-25)
+ * 클로저, enum, 구조체/클래스(프로퍼티, 메소드, 서브스크립트, 상속, 초기화, 옵셔널체이닝)
+ * 접근제한자, extension, 타입캐스팅
+ * 뷰 계층구조, IBOutlet/IBAction, autoLayout
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
