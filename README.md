@@ -89,7 +89,11 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
 * 14주차 (2017-03-04)
  * 클로저, enum, 구조체/클래스(프로퍼티, 메소드, 서브스크립트, 상속, 초기화, 옵셔널체이닝)
  * 접근제한자, extension, 타입캐스팅
- * 뷰 계층구조, IBOutlet/IBAction, autoLayout 예정.
+ * 뷰 계층구조, IBOutlet/IBAction, autoLayout
+ 
+* 15주차 (2017-03-11)
+ * 접근제한자, 프로토콜(protocol), delegate pattern
+ * 프로젝트명 수정방법, 워크스페이스 생성, 화면전환(segue) 예정
  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
