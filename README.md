@@ -96,9 +96,9 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
   * 프로젝트명 수정방법, 워크스페이스 생성, 화면전환(segue) 예정
 
 * 16주차 (2017-03-18)
-  * 프로젝트명 수정방법, 워크스페이스 생성, 접근제한자, 프로토콜(protocol) 복습
-  * delegate pattern, error control, generic(제네릭)
-  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller 예정
+  * 프로젝트명 수정방법, 워크스페이스 생성, 접근제한자, 프로토콜(protocol) 복습
+  * delegate pattern, error control, generic(제네릭)
+  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller 예정
   
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
