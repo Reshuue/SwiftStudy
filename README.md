@@ -27,74 +27,79 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
 
 ## 진행사항
 * 1주차 (2016-10-29)
- * swift 배경 및 xcode툴 소개
- * xcode ios앱 개발 소개
- * swift 기본자료형, 변수선언방식, 옵셔널(optional), 조건문
- * 교재 1~3장 예제 및 미션과제 실습 
+  * swift 배경 및 xcode툴 소개
+  * xcode ios앱 개발 소개
+  * swift 기본자료형, 변수선언방식, 옵셔널(optional), 조건문
+  * 교재 1~3장 예제 및 미션과제 실습 
 
 * 2주차 (2016-11-05)
- * swift 연산자, 조건문(switch-case, guard), 반복문(for문,while, repeat-while), 함수, 클래스, 배열(Array)
- * Date, DateFormatter, Timer, selector 사용법
- * 교재 4장 예제 및 미션과제 실습
- * git / sourceTree 사용법 (향후 전체적인 정리내용 필요) 
+  * swift 연산자, 조건문(switch-case, guard), 반복문(for문,while, repeat-while), 함수, 클래스, 배열(Array)
+  * Date, DateFormatter, Timer, selector 사용법
+  * 교재 4장 예제 및 미션과제 실습
+  * git / sourceTree 사용법 (향후 전체적인 정리내용 필요) 
 
 * 3주차 (2016-11-12)
- * swift문법 - protocol, 클로저(익명함수), 델리게이트 패턴
- * 5~6장 예제 및 미션과제 실습 (pickerView / alert창)
+  * swift문법 - protocol, 클로저(익명함수), 델리게이트 패턴
+  * 5~6장 예제 및 미션과제 실습 (pickerView / alert창)
 
 * 4주차 (2016-11-19)
- * UIWebView / Bundle 객체 / MapKit / CoreLocation
- * 7장 웹뷰 예제 실습
+  * UIWebView / Bundle 객체 / MapKit / CoreLocation
+  * 7장 웹뷰 예제 실습
 
 * 5주차 (2016-11-26)
- * Bundle객체, Mapkit, CoreLocation, UIPageControl
- * 8~9장 예제 및 미션과제 실습 (MapView / PageControl)
+  * Bundle객체, Mapkit, CoreLocation, UIPageControl
+  * 8~9장 예제 및 미션과제 실습 (MapView / PageControl)
  
 * 6주차 (2016-12-03)
- * type casting (형변환), double question(??), 화면전환 / Segue(세그)
- * 10~11장 예제 및 미션과제 실습 (TabBarController / NavigationControl)
+  * type casting (형변환), double question(??), 화면전환 / Segue(세그)
+  * 10~11장 예제 및 미션과제 실습 (TabBarController / NavigationControl)
 
 * 7주차 (2016-12-10)
- * type casting (형변환), double question(??), Segue(세그) 복습, UItableView
- * 12장 TableView를 이용한 Todo 리스트 실습
+  * type casting (형변환), double question(??), Segue(세그) 복습, UItableView
+  * 12장 TableView를 이용한 Todo 리스트 실습
  
 * 8주차 (2017-01-07)
- * Selector, UIGestureRecognizer 
- * 18~19장 - swipeGesture / pinchGesture 예제 및 미션과제 실습
+  * Selector, UIGestureRecognizer 
+  * 18~19장 - swipeGesture / pinchGesture 예제 및 미션과제 실습
 
 * 9주차 (2017-01-21)
- * Tap(UIResponder), Core Graphics
- * 14,16~17장 비디오 영상 재생 / 코어그래픽 및 tab/touch 예제 및 미션과제
- * cococa pods 사용 및 youtube-ios-player-helper 예제실습
+  * Tap(UIResponder), Core Graphics
+  * 14,16~17장 비디오 영상 재생 / 코어그래픽 및 tab/touch 예제 및 미션과제
+  * cococa pods 사용 및 youtube-ios-player-helper 예제실습
 
 * 10주차 (2017-02-04)
- * dictionary / enum
- * error handle (Error, try/catch, throws)
- * 13장 음성파일 재생 예제 실습
+  * dictionary / enum
+  * error handle (Error, try/catch, throws)
+  * 13장 음성파일 재생 예제 실습
  
 * 11주차 (2017-02-11)
- * 15장 사진라이브러리 예제 및 실습
- * 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497) 마무리
+  * 15장 사진라이브러리 예제 및 실습
+  * 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497) 마무리
  
 * 12주차 (2017-02-18)
- * swift/xcode툴
- * swift문법 - 기본 자료형 (데이터 타입), 연산자, 변수 및 선언방식, 문자열 포맷, 조건문, 반복문
+  * swift/xcode툴
+  * swift문법 - 기본 자료형 (데이터 타입), 연산자, 변수 및 선언방식, 문자열 포맷, 조건문, 반복문
  
 * 13주차 (2017-02-25)
- * 지난주제 복습
- * 튜플, Any/AnyObject, 옵셔널(optional), Double question(??)
- * 함수(function), 콜렉션 타입 - Array, Dictionary
- * 앱 생명주기, 뷰 생명주기
+  * 지난주제 복습
+  * 튜플, Any/AnyObject, 옵셔널(optional), Double question(??)
+  * 함수(function), 콜렉션 타입 - Array, Dictionary
+  * 앱 생명주기, 뷰 생명주기
 
 * 14주차 (2017-03-04)
- * 클로저, enum, 구조체/클래스(프로퍼티, 메소드, 서브스크립트, 상속, 초기화, 옵셔널체이닝)
- * 접근제한자, extension, 타입캐스팅
- * 뷰 계층구조, IBOutlet/IBAction, autoLayout
+  * 클로저, enum, 구조체/클래스(프로퍼티, 메소드, 서브스크립트, 상속, 초기화, 옵셔널체이닝)
+  * 접근제한자, extension, 타입캐스팅
+  * 뷰 계층구조, IBOutlet/IBAction, autoLayout
  
 * 15주차 (2017-03-11)
- * 접근제한자, 프로토콜(protocol), delegate pattern
- * 프로젝트명 수정방법, 워크스페이스 생성, 화면전환(segue) 예정
- 
+  * 접근제한자, 프로토콜(protocol), delegate pattern
+  * 프로젝트명 수정방법, 워크스페이스 생성, 화면전환(segue) 예정
+
+* 16주차 (2017-03-18)
+  * 프로젝트명 수정방법, 워크스페이스 생성, 접근제한자, 프로토콜(protocol) 복습
+  * delegate pattern, error control, generic(제네릭)
+  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller 예정
+  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * swift 문법 내용정리 문서화
