@@ -101,7 +101,7 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
   * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller
   
 * 17주차 (2017-03-25)
-  * UITableViewController 및 기타내용, 세미프로젝트 논의 예정
+  * UITableViewController 및 기타내용, 세미프로젝트 논의 예정
   
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
