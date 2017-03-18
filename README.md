@@ -98,7 +98,7 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
 * 16주차 (2017-03-18)
   * 프로젝트명 수정방법, 워크스페이스 생성, 접근제한자, 프로토콜(protocol) 복습
   * delegate pattern, error control, generic(제네릭)
-  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller
+  * 화면전환(segue), 뷰 데이터 전달(data passing), UIGestureRecognizer 실습
   
 * 17주차 (2017-03-25)
   * UITableViewController 및 기타내용, 세미프로젝트 논의 예정
