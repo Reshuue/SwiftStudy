@@ -6,24 +6,24 @@
 * 팀원들과의 소스코드 공유목적으로 만든 git저장소입니다.
  
 ## 스터디모임 정보
-1) do it 스위프트로 아이폰앱 만들기 기준의 입문자 swift/ios스터디
-* slack team명: swift-ios-study.slack.com
-* slack web url: https://swift-ios-study.slack.com/
-* 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497)
-* 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸
-* 진행방식:매주 교재 2챕터씩 예제 및 미션과제 실습
-* 환경: swift 3.0 / xcode 8.0
-* 기간: 2016-10-29 ~ 2017-02-11 (11주)
+**1) do it 스위프트로 아이폰앱 만들기 기준의 입문자 swift/ios스터디**
+ * slack team명: swift-ios-study.slack.com
+ * slack web url: https://swift-ios-study.slack.com/
+ * 교재: [do it 스위프트로 아이폰앱 만들기](http://book.naver.com/bookdb/book_detail.nhn?bid=10653497)
+ * 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸
+ * 진행방식:매주 교재 2챕터씩 예제 및 미션과제 실습
+ * 환경: swift 3.0 / xcode 8.0
+ * 기간: 2016-10-29 ~ 2017-02-11 (11주)
 
-2) swift문법/ios, 세미프로젝트 스터디
-* 참고교재
-  * [애플 swift문서](
+**2) swift문법/ios, 세미프로젝트 스터디**
+ * 참고교재
+   * [애플 swift문서](
 https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/)
-  * [꼼꼼한 재은 씨의 Swift3](http://book.naver.com/bookdb/book_detail.nhn?bid=11282203)
-* 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸 (시간변경 될 수 있음)
-* 진행방식: 매주 선정주제 발표 및 스터디(1시간) / 세미프로젝트(2시간)
-* 환경: swift 3.0 / xcode 8.0
-* 기간: 2017-02-18 ~
+   * [꼼꼼한 재은 씨의 Swift3](http://book.naver.com/bookdb/book_detail.nhn?bid=11282203)
+ * 시간/장소: 토요일 오전(9:00 ~ 12:00) 이대/신촌 인근 스터디룸 (시간변경 될 수 있음)
+ * 진행방식: 매주 선정주제 발표 및 스터디(1시간) / 세미프로젝트(2시간)
+ * 환경: swift 3.0 / xcode 8.0
+ * 기간: 2017-02-18 ~
 
 ## 진행사항
 * 1주차 (2016-10-29)
@@ -98,8 +98,11 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
 * 16주차 (2017-03-18)
   * 프로젝트명 수정방법, 워크스페이스 생성, 접근제한자, 프로토콜(protocol) 복습
   * delegate pattern, error control, generic(제네릭)
-  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller 예정
-  
+  * 화면전환(segue), 뷰 데이터 전달(data passing), UIAlertviewcontroller
+  
+* 17주차 (2017-03-25)
+  * UITableViewController 및 기타내용, 세미프로젝트 논의 예정
+  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * swift 문법 내용정리 문서화
