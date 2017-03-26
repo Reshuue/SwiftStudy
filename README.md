@@ -101,8 +101,12 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
   * 화면전환(segue), 뷰 데이터 전달(data passing), UIGestureRecognizer 실습
   
 * 17주차 (2017-03-25)
-  * UITableViewController 및 기타내용, 세미프로젝트 논의 예정
+  * UITableViewController 실습
+  * 세미프로젝트 논의 ([니키가이드 UI구조](https://play.google.com/store/apps/details?id=com.appster.nikkiguide&hl=ko))
   
+* 18주차 (2017-04-01)
+  * UIPageViewController 및 UIcollectionview 실습예정.
+  
 ## 기타 정리할 내용
 * sourcetree를 git 형상관리 사용법
 * swift 문법 내용정리 문서화
