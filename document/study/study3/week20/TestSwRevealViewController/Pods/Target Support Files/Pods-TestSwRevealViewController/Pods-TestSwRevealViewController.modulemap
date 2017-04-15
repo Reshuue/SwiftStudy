@@ -1,0 +1,6 @@
+framework module Pods_TestSwRevealViewController {
+  umbrella header "Pods-TestSwRevealViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

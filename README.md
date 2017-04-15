@@ -17,8 +17,8 @@
  * 기간: 2017-04-08 ~
 
 ## 진행사항
-* 19주차 (2017-04-08)
-  * ...
-
-* 20주차 (2017-04-08)
-  * ...
+* 20주차 (2017-04-16)
+  * [SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController)
+  * [SideMenu](https://github.com/jonkykong/SideMenu)
+  * CoreData
+  * [DB Spatial data](http://2joong2.tistory.com/category/DB/MySQL/MariaDB)
