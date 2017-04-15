@@ -40,4 +40,4 @@ https://developer.apple.com/library/prerelease/content/documentation/Swift/Conce
   
 * 18주차 (2017-04-01)
   * UIPageViewController 실습.
-  * 스터디방식 변경(자유주제 발표식)
+  * 스터디방식 변경(자유주제 발표식)
